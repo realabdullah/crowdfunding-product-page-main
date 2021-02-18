@@ -1,12 +1,16 @@
 body{
     margin: 0;
     padding: 0;
+    /*For the main body design*/
+    background-color: #ebd9d9;
 }
 .header{
     background-image: url("/assets/images/image-hero-desktop.jpg");
     background-size: cover;
     height: 400px;
     padding: 0px 100px;
+    /*For main contents design
+    display: relative;*/
 }
 nav{
     display: flex;
@@ -21,4 +25,72 @@ ul{
 ul li{
     padding: 0px 20px;
     color: #ffff;
+}
+
+/*For the main body design (@BuduCE part)*/
+#master_img{
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+#master{
+    width: 40%;
+    margin: auto;
+    position: relative;
+    top: -60px;
+}
+#master1{
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 5px;
+}
+#master1_p{
+    text-align: center;
+    width: 95%;
+    margin: auto;
+}
+.btn1{
+    padding: 8px 15px;
+    border-radius: 30px;
+    border: none;
+}
+.btnl{
+    background: #3BB4AA;
+    color: #FFFFFF;
+}
+.btnr{
+    float: right;
+    background: #F4F4F4;
+}
+#master2{
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.vertical{
+    border-right: 1px solid #CECECE;
+    height: 40px;
+    margin-right: 30px;
+    margin-top: 20px;
+
+}
+#master2_1{
+    display: flex;
+    /*margin: auto;
+    justify-content: center;*/
+}
+#hor{
+    margin-top: 20px;
+    height: 8px;
+    background: #3BB4AA;
+    border: none;
+    border-radius: 5px;
+}
+#master3{
+    background-color: #FFFFFF;
+    padding: 25px;
+    padding-top: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
 }
