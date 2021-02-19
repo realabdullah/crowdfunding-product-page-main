@@ -9,8 +9,6 @@ body{
     background-size: cover;
     height: 400px;
     padding: 0px 100px;
-    /*For main contents design
-    display: relative;*/
 }
 nav{
     display: flex;
@@ -25,6 +23,9 @@ ul{
 ul li{
     padding: 0px 20px;
     color: #ffff;
+}
+.menu{
+    display: none;
 }
 
 /*For the main body design (@BuduCE part)*/
@@ -93,4 +94,34 @@ ul li{
     padding-top: 15px;
     border-radius: 5px;
     margin-top: 20px;
+}
+
+@media(max-width: 375px){
+    .header{
+        background-image: url("/assets/images/image-hero-mobile.jpg");
+        background-size: cover;
+        padding: 0px 40px;
+    }
+    nav ul{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
+@media all and (max-width: 664px) and (min-width: 375px){
+    .header{
+        padding: 0px 60px;
+    }
+    nav ul{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
+@media all and (max-width: 878px) and (min-width: 664px){
+    .header{
+        padding: 0px 60px;
+    }
 }
