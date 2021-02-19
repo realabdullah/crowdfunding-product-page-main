@@ -10,7 +10,7 @@ body{
     height: 400px;
     padding: 0px 100px;
 }
-nav{
+.desk-nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,6 +26,36 @@ ul li{
 }
 .menu{
     display: none;
+}
+#nav-dropdown{
+    display: none;
+    align-content: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    width: 250px;
+    position: absolute;
+    height: auto;
+    margin: auto;
+    border-radius: 7px;
+    top: 100px;
+    z-index: 1;
+    -webkit-box-shadow: -3px 11px 50px -1px rgba(125,121,121,1);
+    -moz-box-shadow: -3px 11px 50px -1px rgba(125,121,121,1);
+    box-shadow: -3px 11px 50px -1px rgba(125,121,121,1);
+}
+#nav-dropdown nav{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 50px 0px;
+    margin-left: 40px;
+}
+#nav-dropdown nav a{
+    display: block;
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+    text-decoration: none;
+    padding: 25px 0;
 }
 
 /*For the main body design (@BuduCE part)*/
@@ -106,14 +136,23 @@ ul li{
     .menu{
         display: block;
     }
+    #nav-dropdown{
+        display: none;
+    }
 }
 @media all and (max-width: 878px) and (min-width: 664px){
     .header{
         padding: 0px 60px;
     }
+    #nav-dropdown{
+        display: none;
+    }
 }
 /* Responsiveness for minimum of 1024px screen*/
 @media(min-width: 1024px){
+    #nav-dropdown{
+        display: none;
+    }
     .alt{
         margin-right: 30px;
     }
@@ -136,6 +175,9 @@ ul li{
 
 /*Responsiveness for maximum of 1023px screen*/
 @media(max-width: 1023px){
+    #nav-dropdown{
+        display: none;
+    }
     #master2_1{
         text-align: center;
     }
