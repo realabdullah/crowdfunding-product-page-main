@@ -222,3 +222,22 @@ ul li{
         right: 70px;
     }
 }
+
+footer {
+        margin: 0 50px 50px 50px;
+        font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+    }
+    .contain {
+        background-color: #fff;
+        border: 1px solid #000;
+        margin: 15px 0;
+        padding: 20px;
+        overflow: auto;
+    }
+    .right {
+        float: right;
+    }
+    @media (max-width: 400px) {
+        .right {float: none;display: block;}
+        button {display: block;}
+    }
