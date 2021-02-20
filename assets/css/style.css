@@ -1,4 +1,5 @@
 body{
+    font-family: 'Commissioner', sans-serif;
     margin: 0;
     padding: 0;
     /*For the main body design*/
@@ -29,13 +30,10 @@ ul li{
 }
 #nav-dropdown{
     display: none;
-    align-content: center;
-    justify-content: center;
     background-color: #FFFFFF;
-    width: 250px;
+    width: 80%;
     position: absolute;
     height: auto;
-    margin: auto;
     border-radius: 7px;
     top: 100px;
     z-index: 1;
@@ -47,15 +45,19 @@ ul li{
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    margin: 50px 0px;
-    margin-left: 40px;
 }
 #nav-dropdown nav a{
     display: block;
     color: hsl(0, 0%, 0%);
     text-align: center;
     text-decoration: none;
-    padding: 25px 0;
+    padding: 30px;
+    font-weight: 500;
+}
+#nav-dropdown nav hr{
+    width: -webkit-fill-available;
+    width: -moz-available;
+    color: hsl(0, 0%, 48%);
 }
 
 /*For the main body design (@BuduCE part)*/
@@ -128,7 +130,7 @@ ul li{
 }
 @media all and (max-width: 664px) and (min-width: 375px){
     .header{
-        padding: 0px 60px;
+        padding: 0px 40px;
     }
     nav ul{
         display: none;
