@@ -110,6 +110,38 @@ ul li{
     padding-right: 20px;
     padding-left: 10px;
 }
+
+/*Modal from master 1*/
+#back-project{
+    display: none;
+    background-color: #FFFFFF;
+    width: 100%;
+    position: absolute;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    top: -18%;
+    left: 0%;
+    z-index: 1;
+    -webkit-box-shadow: -3px 11px 50px -1px rgba(125,121,121,1);
+    -moz-box-shadow: -3px 11px 50px -1px rgba(125,121,121,1);
+    box-shadow: -3px 11px 50px -1px rgba(125,121,121,1);
+}
+#back-project_1{
+    padding: 25px 30px;
+}
+#back-project-header{
+    display: flex;
+    justify-content: space-between;
+}
+.back-project-sect1{
+    border: 1px solid #000000;
+    padding: 15px 20px;
+    margin-top: 10px;
+}
+.back-project-sect1_1 label{
+    font-weight: 500;
+}
 #master2{
     background-color: #FFFFFF;
     padding: 25px;
@@ -210,6 +242,9 @@ ul li{
 @media(max-width: 730px){
     #master{
         width: 90%;
+    }
+    #bookmark{
+        background-color: #FFFFFF;
     }
     .btnr{
         display: none;
