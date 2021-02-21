@@ -6,3 +6,11 @@ function openNav() {
         open.style.display = "block"
     }
 }
+function backProject() {
+    const openClose = document.getElementById("back-project");
+    if (openClose.style.display === "block") {
+        openClose.style.display = "none";
+    } else {
+        openClose.style.display = "block"
+    }
+}

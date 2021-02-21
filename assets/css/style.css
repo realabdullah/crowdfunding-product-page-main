@@ -112,6 +112,80 @@ ul li{
     padding-right: 20px;
     padding-left: 10px;
 }
+
+/*Modal from master 1*/
+#back-project{
+    display: none;
+    background-color: #FFFFFF;
+    width: 100%;
+    position: absolute;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    top: -18%;
+    left: 0%;
+    z-index: 1;
+    -webkit-box-shadow: -3px 11px 50px -1px rgba(125,121,121,1);
+    -moz-box-shadow: -3px 11px 50px -1px rgba(125,121,121,1);
+    box-shadow: -3px 11px 50px -1px rgba(125,121,121,1);
+}
+#back-project_1{
+    padding: 25px 30px;
+}
+#back-project-header{
+    display: flex;
+    justify-content: space-between;
+}
+.back-project-sect1{
+    border: 0.3px solid #cec5c5;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-top: 10px;
+}
+.back-project-sect1 label{
+    font-weight: 700;
+}
+.back-project-sect1 label:hover{
+    color: #1de9d8;
+}
+.back-project-sect p{
+    font-size: 16px;
+}
+#opac{
+    opacity: 0.5;
+}
+.back-project-sect1_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pledge-box label{
+    padding-left: 7px;
+}
+.pledge-box label span{
+    color: #1de9d8;
+}
+.pledge-box1 h5 span{
+    color: grey;
+}
+.back-project-sect1_2{
+    margin-top: -3%;
+    padding-left: 30px;
+}
+/*onClick under some of the options*/
+#onclick-modal-line{
+    background-color: rgb(155, 148, 148);
+}
+.back-project-onclick{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+.back-project-onclick1 input{
+    padding:15px;
+    border: none;
+}
 #master2{
     background-color: #FFFFFF;
     padding: 25px;
@@ -212,6 +286,9 @@ ul li{
 @media(max-width: 730px){
     #master{
         width: 90%;
+    }
+    #bookmark{
+        background-color: #FFFFFF;
     }
     .btnr{
         display: none;

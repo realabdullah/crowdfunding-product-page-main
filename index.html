@@ -53,14 +53,93 @@
             </div>
             <div id="master1_btn">
                 <div id="butn">
-                    <button class="btn1 btnl">Back this project</button>
+                    <button class="btn1 btnl" onclick="backProject()">Back this project</button>
                 </div>
                 <div id="bookmark">
                     <img src="./assets/images/icon-bookmark.svg" id="bk_img">
                     <button class="btnr">Bookmarked</button>
                 </div>
             </div>
+
+            <!--Pop-up for onlick of back up this project button-->
+            <div id="back-project" class="back-project-modal">
+                <div id="back-project_1">
+                    <div id="back-project-header">
+                        <div>
+                            <h3>Back this project</h3>
+                            <p>Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
+                        </div>
+                        <div >
+                            <img src="./assets/images/icon-close-modal.svg" alt="" onclick="backProject()">
+                        </div>
+                    </div>
+                    <div class="back-project-sect1">
+                        <div class="pledge-box">
+                            <input type="radio" name="" id="">
+                            <label for="" class="back-project-label">Pledge with no reward</label>
+                        </div>
+
+                        <div class="back-project-sect1_2">
+                            <p>Choose to support us without a reward if you simply believe in out project. As a backer, you will be signed up to recieve product updates via email.</p>
+                        </div>
+                    </div>
+                    <div class="back-project-sect1">
+                        <div class="back-project-sect1_1">
+                            <div class="pledge-box">
+                                <input type="radio" name="" id="">
+                                <label for="" class="back-project-label">Bamboo Stand <span>Pledge $25 or more</span></label>
+                            </div>
+                            <div class="pledge-box1">
+                                <h5>101 <span>left</span></h5>
+                            </div>
+                        </div>
+                        <div class="back-project-sect1_2">
+                            <p>You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and you'll be added to a special Becker member list.</p>
+                        </div>
+
+                        <!--onClcik visibility for the moadal options-->
+                        <hr id="onclick-modal-line">
+                        <div class="back-project-onclick">
+                            <div class="back-project-onclick1">
+                                <input type="text" name="" placeholder="Enter your pledge" id="">
+                            </div>
+                            <div class="back-project-onclick1_1">
+                                <input type="button" value="">
+                                <input type="button" value="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="back-project-sect1">
+                        <div class="back-project-sect1_1">
+                            <div class="pledge-box">
+                                <input type="radio" name="" id="">
+                                <label for="" class="back-project-label">Black Edition Stand <span>Pledge $75 or more</span></label>
+                            </div>
+                            <div class="pledge-box1">
+                                <h5>64 <span>left</span></h5>
+                            </div>
+                        </div>
+                        <div class="back-project-sect1_2">
+                            <p>You get a Black Special Edition Computer stand and a personal thank you. You'll be added to out Backer member list. Shipping is included.</p>
+                        </div>
+                    </div>
+                    <div class="back-project-sect1" id="opac">
+                        <div class="back-project-sect1_1">
+                            <div class="pledge-box">
+                                <input type="radio" name="" id="">
+                                <label for="" class="back-project-label">Mahogany Special Edition<span>Pledge $200 or more</span></label>
+                            </div>
+                            <div class="pledge-box1">
+                                <h5>0 <span class=>left</span></h5>
+                            </div>
+                        </div>
+                        <div class="back-project-sect1_2">
+                            <p>You get two Special Edition Mahogamy stands, a Becker T-Shirt, and a personal thank you. You'll be added to our Becker member list. Shipping is included.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
 
             <!--Second container in the master div-->
             <div id="master2">
