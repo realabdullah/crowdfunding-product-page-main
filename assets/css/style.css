@@ -142,6 +142,10 @@ ul li{
     padding: 15px 20px;
     margin-top: 10px;
 }
+.back-project-sect1:hover{
+    cursor: pointer;
+    border: 2px solid hsl(176, 72%, 28%);
+}
 .back-project-sect1 label{
     font-weight: 700;
 }
@@ -181,10 +185,69 @@ ul li{
     align-items: center;
     padding: 10px;
     justify-content: space-between;
+    padding: 10px;
+    display: none;
 }
 .back-project-onclick1 input{
     padding:15px;
     border: none;
+}
+.pledge-amount{
+    width: 25px;
+    margin-right: 3px;
+    border: 1px solid hsl(176, 50%, 47%);
+    border-radius: 35px;
+    padding: 10px 30px;
+}
+.pledge-amount:hover{
+    cursor: pointer;
+}
+.pledge-confirm{
+    margin-left: 3px;
+    border: none;
+    border-radius: 35px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    background-color: hsl(176, 50%, 47%);
+}
+.pledge-confirm:hover{
+    cursor: pointer;
+    background-color: hsl(176, 72%, 28%);
+}
+.pledge-project-modal{
+    display: none;
+    background-color: #FFFFFF;
+    width: 70%;
+    position: absolute;
+    height: auto;
+    border-radius: 7px;
+    top: -15%;
+    margin: 0% 9%;
+    z-index: 1;
+    box-shadow: -3px 11px 50px -1px rgba(125,121,121,1);
+}
+.pledge-project-modal-content{
+    text-align: center;
+    padding: 45px;
+}
+.pledge-project-modal-content h2{
+    padding: 10px 0px;
+}
+.pledge-project-modal-content p{
+    color: hsl(176, 50%, 47%);
+    padding: 5px;
+    line-height: 25px;
+}
+.pledge-btn{
+    border: none;
+    border-radius: 30px;
+    color: #FFFFFF;
+    background-color: hsl(176, 50%, 47%);
+    padding: 10px 25px;
+}
+.pledge-btn:hover{
+    background-color: hsl(176, 72%, 28%);
+    cursor: pointer;
 }
 #master2{
     background-color: #FFFFFF;

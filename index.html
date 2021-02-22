@@ -86,7 +86,7 @@
                     <div class="back-project-sect1">
                         <div class="back-project-sect1_1">
                             <div class="pledge-box">
-                                <input type="radio" name="" id="">
+                                <input href="javascript:void(0);" onclick="chosePledge()" type="radio" name="">
                                 <label for="" class="back-project-label">Bamboo Stand <span>Pledge $25 or more</span></label>
                             </div>
                             <div class="pledge-box1">
@@ -98,21 +98,21 @@
                         </div>
 
                         <!--onClcik visibility for the moadal options-->
-                        <hr id="onclick-modal-line">
-                        <div class="back-project-onclick">
+                        
+                        <div class="back-project-onclick" id="selectPledge">
                             <div class="back-project-onclick1">
                                 <input type="text" name="" placeholder="Enter your pledge" id="">
                             </div>
                             <div class="back-project-onclick1_1">
-                                <input type="button" value="">
-                                <input type="button" value="">
+                                <input class="pledge-amount" type="text" placeholder="$">
+                                <input href="javascript:void(0);" onclick="pledgedSupport()" class="pledge-confirm" type="button" value="Continue">
                             </div>
                         </div>
                     </div>
                     <div class="back-project-sect1">
                         <div class="back-project-sect1_1">
                             <div class="pledge-box">
-                                <input type="radio" name="" id="">
+                                <input href="javascript:void(0);" onclick="chosePledgeone()" type="radio" name="">
                                 <label for="" class="back-project-label">Black Edition Stand <span>Pledge $75 or more</span></label>
                             </div>
                             <div class="pledge-box1">
@@ -122,11 +122,20 @@
                         <div class="back-project-sect1_2">
                             <p>You get a Black Special Edition Computer stand and a personal thank you. You'll be added to out Backer member list. Shipping is included.</p>
                         </div>
+                        <div class="back-project-onclick" id="selectPledgeone">
+                            <div class="back-project-onclick1">
+                                <input type="text" name="" placeholder="Enter your pledge" id="">
+                            </div>
+                            <div class="back-project-onclick1_1">
+                                <input class="pledge-amount" type="text" placeholder="$">
+                                <input href="javascript:void(0);" onclick="pledgedSupport()" class="pledge-confirm" type="button" value="Continue">
+                            </div>
+                        </div>
                     </div>
                     <div class="back-project-sect1" id="opac">
                         <div class="back-project-sect1_1">
                             <div class="pledge-box">
-                                <input type="radio" name="" id="">
+                                <input href="javascript:void(0);" onclick="chosePledgetwo()" type="radio" name="">
                                 <label for="" class="back-project-label">Mahogany Special Edition<span>Pledge $200 or more</span></label>
                             </div>
                             <div class="pledge-box1">
@@ -136,6 +145,30 @@
                         <div class="back-project-sect1_2">
                             <p>You get two Special Edition Mahogamy stands, a Becker T-Shirt, and a personal thank you. You'll be added to our Becker member list. Shipping is included.</p>
                         </div>
+                        <div class="back-project-onclick" id="selectPledgetwo">
+                            <div class="back-project-onclick1">
+                                <input type="text" name="" placeholder="Enter your pledge" id="">
+                            </div>
+                            <div class="back-project-onclick1_1">
+                                <input class="pledge-amount" type="text" placeholder="$">
+                                <input href="javascript:void(0);" onclick="pledgedSupport()" class="pledge-confirm" type="button" value="Continue">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="pledge-project" class="pledge-project-modal">
+                    <div class="pledge-project-modal-content">
+                        <img src="assets/images/icon-check.svg" alt="icon-check">
+                        <h2>Thanks for your support!</h2>
+                        <p>
+                            Your pledge brings us one step closer to sharing Mastercraft
+                            Bamboo Monitor Riser worldwide. You will get an email once
+                            our campaign is completed.
+                        </p>
+                        <button href="javascript:void(0);" onclick="pledgedSupport()" class="pledge-btn">
+                            Got it!
+                        </button>
                     </div>
                 </div>
             </div>
